@@ -12,15 +12,22 @@ A terminal application for browsing groceries, building a shopping cart, and cal
 - Apply the coursework's historical **7% GST** after any discount.
 - Display an itemised receipt and simulate payment confirmation.
 
-## Run
+## Reproduce locally
 
-From the repository root:
+**Prerequisites:** Git, Python 3, and an interactive terminal. No packages, account, or database are needed.
 
 ```sh
+git clone https://github.com/ChuaJiaSheng/python-grocery-system.git
+cd python-grocery-system
+python --version
 python src/main.py
 ```
 
-No package installation or database is required. Use a terminal with interactive input. The program starts immediately when the script runs; it is not designed as an importable library.
+If your system uses `python3`, substitute it for `python`.
+
+**Expected result:** the terminal displays a Main Menu with ordering, cart, removal, and checkout options. To check the calculation, choose ordering, sort alphabetically, select **Milk** by its displayed number, and enter quantity `2`. Return to the main menu, choose checkout, and answer `n` to the discount question. The $4.60 subtotal should produce a $4.92 total with the included 7% GST rule. Confirming payment prints a success message and exits; no money is transferred.
+
+Use Ctrl+C to stop before checkout. Each new launch starts with an empty cart. If Python is not found, install Python 3 and reopen the terminal with it on PATH.
 
 ## Example workflow
 
