@@ -45,10 +45,10 @@ For example, a $10.00 subtotal becomes $9.00 after the 10% discount, then $9.63 
 
 The cart is lost when the process ends. Adding the same product again replaces that product's existing cart entry rather than accumulating its quantity. Quantity validation and navigation are basic; several menus call other menus recursively. No real payment, online ordering, stock control, or user accounts are implemented.
 
-## Team and acknowledgements
+## Team
 
-The original report identifies **Thaddeus Leow, Bryant Lew, and Chua Jia Sheng** as the project team. It credits Jia Sheng with most of the programming and code fixes; Thaddeus with the flowchart, programming support, coordination, and testing; and Bryant with programming support, the report, and testing. All three contributed to the presentation. The report also acknowledges Yu Cheng, Pyie Sone, and the programming lecturer Mr Koh for assistance and feedback.
+- **Chua Jia Sheng:** primary programming, code fixes, report sections, and presentation.
+- **Thaddeus Leow:** flowchart, programming support, task coordination, testing, and presentation.
+- **Bryant Lew:** programming support, report, testing, and presentation.
 
-## Verification
-
-Python syntax was checked during repository preparation. The interactive purchase flow has not been executed as part of that verification. Original reports and presentations are retained separately and are not included in this repository.
+Thanks to Yu Cheng, Pyie Sone, and Mr Koh for assistance and feedback.
